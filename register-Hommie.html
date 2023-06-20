@@ -51,27 +51,6 @@
                             </a>
                         </div>
                         <div class="col-lg-9">
-                            <div class="row gx-0 bg-white d-none d-lg-flex">
-                                <div class="col-lg-7 px-5 text-start">
-                                    <div class="h-100 d-inline-flex align-items-center py-2 me-4">
-                                        <i class="fa fa-envelope text-primary me-2"></i>
-                                        <p class="mb-0">info@hommie.com</p>
-                                    </div>
-                                    <div class="h-100 d-inline-flex align-items-center py-2">
-                                        <i class="fa fa-phone-alt text-primary me-2"></i>
-                                        <p class="mb-0">+61 2 8123 4567</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 px-5 text-end">
-                                    <div class="d-inline-flex align-items-center py-2">
-                                        <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
-                                        <a class="" href=""><i class="fab fa-youtube"></i></a>
-                                    </div>
-                                </div>
-                            </div>
                             <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                                 <a href="index.html" class="navbar-brand d-block d-lg-none">
                                     <h1 class="m-0 text-primary text-uppercase">Hommie</h1>
@@ -79,21 +58,19 @@
                                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                <div class="collapse navbar-collapse justify-content-between px-5" id="navbarCollapse">
+                                    <div></div>
                                     <div class="navbar-nav mr-auto py-0">
-                                        <a href="index.html" class="nav-item nav-link">Home</a>
-                                        <a href="about.html" class="nav-item nav-link">About</a>
-                                        <a href="service.html" class="nav-item nav-link">Services</a>
-                                        <a href="room.html" class="nav-item nav-link active">Rooms</a>
+                                        <a href="index-Hommie.html" class="nav-item nav-link">Home</a>
+                                        <a href="room-list-Hommie.html" class="nav-item nav-link active">Rooms</a>
                                         <div class="nav-item dropdown">
-                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Account</a>
                                             <div class="dropdown-menu rounded-0 m-0">
-                                                <a href="booking.html" class="dropdown-item">Booking</a>
-                                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                                <a href="login-Hommie.html" class="dropdown-item">Student</a>
+                                                <a href="login-Hommie.html" class="dropdown-item">Landlord</a>
                                             </div>
                                         </div>
-                                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                                        <a href="register-Hommie.html" class="nav-item nav-link">Register</a>
                                     </div>
                                 </div>
                             </nav>
@@ -127,78 +104,77 @@
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h1 class="mb-5"><span class="text-primary text-uppercase">Register</span> To Explore Our Services</h1>
                 </div>
-                    <div class="center-form">
-                            <form style="align-content: center">
+                <div class="center-form">
+                            <form class="justify-content-center w-50" style="margin-left:auto; margin-right: auto;">
                                 <div class="row g-3">
-                                    <div class="col-md-6">
+                                    <div class="d-flex flex-lg-row">
+                                        <div class="p-2">
                                             <input type="radio" value="None" id="radioOne" name="account" checked/>
-                                            <label for="radioOne" class="radio" chec>Landlord</label>
-
+                                            <label for="radioOne" class="radio" chec> Landlord</label>
+                                        </div>
+                                        <div class="p-2">
                                             <input type="radio" value="None" id="radioTwo" name="account" />
-                                            <label for="radioTwo" class="radio">Student</label>
-                <br>
-                <br>
-
-                                        
+                                            <label for="radioTwo" class="radio"> Student</label>
+                                        </div>
                                     </div>
-                                    </div>
-                                    <div class="col-md-6">
+                                    <div class="row g-3">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email"><i class="fa fa-user-circle" aria-hidden="true"></i> Enter Username</label>
+                                            <input type="text" class="form-control" id="user-name" placeholder="Your Username">
+                                            <label for="email"><i class="fa fa-user-circle" aria-hidden="true" style="padding: 0 10px"></i> Enter Username</label>
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="col-md-6">
+                                    <div class="row g-3">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email"><i class="fa fa-key" aria-hidden="true"></i> Enter Password</label>
+                                            <input type="text" class="form-control" id="new-password" placeholder="Your New Password">
+                                            <label for="new-password"><i class="fa fa-key" aria-hidden="true" style="padding: 0 10px"></i>  Enter New Password</label>
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="col-md-6">
+                                    <div class="row g-3">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email"><i class="fa fa-key" aria-hidden="true"></i> Re-enter Password</label>
+                                            <input type="text" class="form-control" id="email" placeholder="confirm-password">
+                                            <label for="text"><i class="fa fa-key" aria-hidden="true" style="padding: 0 10px"></i>  Re-enter Password</label>
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="col-md-6">
+                                    <div class="row g-3">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Enter First Name</label>
+                                            <input type="text" class="form-control" id="first-name" placeholder="Your First Name">
+                                            <label for="first-name"><i class="fa fa-keyboard" style="padding: 0 10px"></i>Enter First Name</label>
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="col-md-6">
+                                    <div class="row g-3">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Enter Last Name</label>
+                                            <input type="text" class="form-control" id="last-name" placeholder="Your Last Name" style="padding: 0 10px">
+                                            <label for="email"><label for="first-name"><i class="fa fa-keyboard" style="padding: 0 10px"></i> Enter Last Name</label>
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="col-md-6">
+                                    <div class="row g-3">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email"><i class="fa fa-envelope" aria-hidden="true"></i> Enter Email Addess</label>
+                                            <label for="email"><i class="fa fa-envelope" aria-hidden="true" style="padding: 0 10px"></i> Enter Email Addess</label>
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="col-md-6">
+                                    <div class="row g-3">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email"><i class="fa fa-mobile" aria-hidden="true"></i>  Enter Phone Number</label>
+                                            <input type="number" class="form-control" id="phone-number" placeholder="Your Phone Number">
+                                            <label for="phone-number"><i class="fa fa-mobile" aria-hidden="true" style="padding: 0 10px"></i>  Enter Phone Number</label>
                                         </div>
                                     </div>
                                     <br>
-                                
-                                    <div class="col-md-6">
+                                    <div class="row g-3">
                                         <button class="btn btn-primary w-100 py-3" type="submit">Register</button>
                                     </div>
                                 </div>
+                                <br>
+                                <p>By clicking Register, you agree with our <a href="tAndC.html">terms and conditions.</a><p></p>
                             </form>
-                            <br>
-                            <p>By clicking Register, you agree with our <a href="tAndC.html">terms and conditions.</a><p>
+
+                            
                         </div>
                     </div>
                 </div>
